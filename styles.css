@@ -259,6 +259,7 @@ hr{
     color: white;
     border-color: red;
     margin-left: 150px;
+    border-radius: 8px;
 }
 
 
@@ -381,22 +382,26 @@ hr{
 .icons1{
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     justify-content:center;
     margin-top: 20px;
-    column-gap: 15px;
-    margin-left: 105px;
+    column-gap: 70px;
+    /*margin-left: 105px;*/
+    text-align: center;
+    color:rgb(6, 73, 140);
     
 }
 
 .icons2{
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 150px 150px 150px 150px;
     justify-content:center;
     margin-top: 20px;
-    column-gap: 50px;
-    margin-left: 200px;
+    column-gap: 70px;
+    /*margin-left: 200px;*/
+    text-align: center;
+    color:rgb(6, 73, 140);
     
 }
 
@@ -417,33 +422,36 @@ hr{
 .icons3{
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
     justify-content:center;
     margin-top: 20px;
-    column-gap: 50px;
-    margin-left: 110px;
+    column-gap: 70px;
+    text-align: center;
+    color:rgb(6, 73, 140);
     
 }
 
 .icons4{
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     justify-content:center;
     margin-top: 20px;
-    column-gap: 50px;
-    margin-left: 120px;
+    column-gap: 70px;
+    text-align: center;
+    color:rgb(6, 73, 140);
     
 }
 
 .icons5{
 
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    justify-content: space-between;
+    grid-template-columns: 150px 150px ;
+    justify-content: center;
     margin-top: 20px;
-    column-gap: 50px;
-    margin-left: 350px;
+    column-gap: 380px;
+    text-align: center;
+    color:rgb(6, 73, 140);
     
 }
 
@@ -454,3 +462,27 @@ hr{
     text-align: center;
 
 }
+
+.page9 h1{
+
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(223, 130, 43); ;
+
+}
+
+.list4{
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.list4 ul{
+
+list-style-type: none;
+font-size: 20px;
+
+}
+
